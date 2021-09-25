@@ -1,0 +1,76 @@
+body {
+    margin:2%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1tPwzE6z2MmF8N9d0UsjXNB7NIe3kW6jFWw&usqp=CAU");
+background-size: cover;
+}
+
+span {
+  color: rgb(110, 217, 231);
+}
+
+.sideNav {
+  margin:2.5% 2.1%;
+  height:100%;
+  width:0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(137, 199, 130);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sideNav a{
+  text-decoration:none;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(255,255,255);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.sideNav a:hover {
+  color: rgb(4, 13, 65);
+}
+
+.sideNav > a:first-child {
+  font-size: 50px;
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+
+h1{
+    font-size: 110px;
+    color: rgb(102, 0, 99);
+}
+
+h3{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+iframe{
+    width: 800px;
+    height: 400px;
+}
+
+.home{
+    border-radius: 100px;
+background-color: rgb(229, 240, 76);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#img{
+    width: 600px;
+    height: 550px;
+    background-image: url("https://cdn.britannica.com/10/94510-050-D0B814DA/Machhapuchhare-Great-Himalaya-Range-Nepal.jpg");
+    background-size: cover;
+    -webkit-mask: url("./paintblob.png");
+    -webkit-mask-size: 100%;
+}

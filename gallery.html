@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    
+    <title>Home Page</title>
+</head>
+<body>
+    <div id='slidingNav' class='sideNav'>
+        <a href='javascript:void(0)' class='closeBtn'     onclick='closeNav()'>&otimes;</a>
+        <a href="./home.html">Home</a>
+        <br>
+        <br>
+        <a href='./about.html'>About Himalayas</a>
+        <br>
+        <br>
+        <a href="#">Gallery</a>
+        <br>
+        <br>
+        <a href='https://www.agoda.com/en-in/pages/agoda/default/DestinationSearchResult.aspx?selectedproperty=49242&city=2112&hid=49242&site_id=1841706&tag=96caa92e-2097-3f39-cd4b-f49437101831&device=c&network=g&adid=464640808956&rand=4647931476765096173&expid=&adpos=&gclid=Cj0KCQjwg7KJBhDyARIsAHrAXaExsX46DW61ptKkTFPnLwS7HZHl4bFLhfojlEGJqJ99A-v1svuVlUwaAtubEALw_wcB'>Hotels In <br> Himalayas</a>
+        <br>
+        <br>
+        <a href='./contact.html'>Contact Me</a>
+        <br>
+        <br>
+        <a href="./store.html">Store</a>
+        <br>
+      </div>
+      
+      <span style='font-size:40px;cursor:pointer' onclick='openNav()'>&#9776;</span>
+      <div class="home">
+     <center>
+    <h1>Media Gallery</h1>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="data:image/jpeg;base64,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">
+            <img src="data:image/jpeg;base64,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" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc">The Beautiful Mountains Of The Himalayas</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.jayshreetea.com/wp/wp-content/uploads/2017/06/3.jpg">
+            <img src="https://www.jayshreetea.com/wp/wp-content/uploads/2017/06/3.jpg" alt="Forest" width="600" height="400">
+          </a>
+          <div class="desc">Himalayan Tea Plantation</div>
+        </div>
+      </div>
+       
+       
+       
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg">
+            <img src="https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Mt. Everest Of The Himalayas</div>
+        </div>
+      </div>
+       
+       
+       <br><br><br>
+    
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://breathedreamgo.com/wp-content/uploads/2020/04/Tons-Trails-Himalayan-village-adventure-23.jpg">
+            <img src="https://breathedreamgo.com/wp-content/uploads/2020/04/Tons-Trails-Himalayan-village-adventure-23.jpg" alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc">A Peaceful Village In the Himalayan Mountains</div>
+        </div>
+      </div>
+      <br>      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Shyok_river_Ladakh.jpg/250px-Shyok_river_Ladakh.jpg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Shyok_river_Ladakh.jpg/250px-Shyok_river_Ladakh.jpg" alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc">Ladakh In It's Finest</div>
+        </div>
+      </div>
+       
+       
+       
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.himalayanhikers.in/wp-content/uploads/2019/10/Goechala-trek5.jpg">
+            <img src="https://www.himalayanhikers.in/wp-content/uploads/2019/10/Goechala-trek5.jpg" alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc">Goecha La, Sikkim! WOW!</div>
+        </div>
+      </div>
+       
+       
+       
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://img.traveltriangle.com/blog/wp-content/uploads/2017/12/Beas-Kund.jpg">
+            <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/12/Beas-Kund.jpg" alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc">MANALI!!</div>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.mountainhomestays.com/wp-content/uploads/2019/08/IMG-8214-3.jpg">
+            <img src="https://www.mountainhomestays.com/wp-content/uploads/2019/08/IMG-8214-3.jpg" alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc">Tawang, Arunachal Pradesh</div>
+        </div>
+      </div>
+    </center> 
+</div>
+      
+      <script src="./app.js"></script>
+</body>
+</html>
+
